@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="brand">HODESA</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+          <div class="navigation-items">
+              <a href="index.html">Početna</a>
+              <a href="about.html">O nama</a>
+              <a href="explore.html">Istražite</a>
+              <a href="contact.html">Kontakt</a>
+              <div class="language-dropdown">
+                  <button class="dropbtn">Language <i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                      <a href="#">English</a>
+                      <a href="#">Español</a>
+                      <!-- Add more language options as needed -->
+                  </div>
+              </div>
+          </div>
+          
+</header>
+
+    <script type="text/javascript">
+      //Javacript for responsive navigation menu
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
